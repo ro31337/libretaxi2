@@ -48,6 +48,7 @@ func (handler *InitMenuHandler) Handle(user *objects.User, context *context.Cont
 
 	// Send welcome message
 	msg := tgbotapi.NewMessage(user.UserId, user.Locale().Get("init_menu.welcome"))
+	msg.DisableWebPagePreview = true
 	context.Send(msg)
 
 	user.MenuId = objects.Menu_AskLocation

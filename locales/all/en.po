@@ -1,5 +1,8 @@
 msgid "init_menu.welcome"
-msgstr "Welcome to LibreTaxi 2.0!"
+msgstr "Welcome to LibreTaxi 2.0!\n"
+"Source code: https://github.com/ro31337/libretaxi2\n"
+"Made by Roman Pushkin and supporters\n"
+"License: AGPL-3.0"
 
 msgid "ask_location_menu.click_next"
 msgstr "Click \"Next\" (from mobile phone) to share your location. Or fake it with 📎 Paperclip -> 📍 Location"
